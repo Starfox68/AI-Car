@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  display: flex;
+  background: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+}
+
+#carSim {
+  background: rgb(211, 211, 211);
+}
+
+button {
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#BrainButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+#keepBrain {
+  border: 3px solid rgb(0, 255, 0);
+}
+
+#keepBrain:hover {
+  background: rgb(0, 255, 0);
+}
+
+#dumpBrain {
+  border: 3px solid rgb(255, 0, 0);
+}
+
+#dumpBrain:hover {
+  background: rgb(255, 0, 0);
+}
